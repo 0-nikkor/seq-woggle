@@ -1,3 +1,4 @@
+
 # SeqWoggle V4.8 — Documentazione
 
 ## Panoramica
@@ -86,6 +87,21 @@ Generatore CV caotico con lag, mix stepped/smooth e burst di trigger.
 
 Presets: ClockedRnd, Woggle, TotalChaos, MelodicDrf, RatchetBug,
 GhostNotes, DrunkenWlk, BurstStorm, AmbientTail.
+### Presets Woggle
+
+| # | Nome | Carattere | BPM base | Chaos | Burst |
+|---|------|-----------|----------|-------|-------|
+| 1 | ClockedRnd | Random lento e ordinato, burst rari | ~230ms | 25% | 20% |
+| 2 | Woggle | Movimento organico bilanciato, burst moderati | ~220ms | 60% | 45% |
+| 3 | TotalChaos | Massimo caos, burst densi e frequenti | ~140ms | 90% | 75% |
+| 4 | MelodicDrf | Deriva melodica lenta, molto smooth, quasi stazionario | ~320ms | 18% | 10% |
+| 5 | RatchetBug | Burst molto frequenti, ratchet serrato | ~150ms | 55% | 70% |
+| 6 | GhostNotes | Note fantasma leggere, burst discreti | ~210ms | 35% | 38% |
+| 7 | DrunkenWlk | Camminata ubriaca con jitter alto | ~260ms | 42% | 18% |
+| 8 | BurstStorm | Tempesta di burst, massima densità trigger | ~110ms | 78% | 88% |
+| 9 | AmbientTail | Lentissimo, ultra smooth, burst rarissimi | ~480ms | 22% | 12% |
+
+
 
 ---
 
@@ -116,6 +132,32 @@ Scale disponibili (identiche a SEQ):
 Blues, C7, F7, G7, Major, MelodicMinor, Pentatonic, Chromatic,
 MinorNat, MinorHarm, MajPent, MinPent, Dorian, Mixolydian, Diminish,
 WholeTone, Altered, Persian, Hijaz, Flamenco.
+### Scale disponibili
+
+| # | Nome | Intervalli | Carattere |
+|---|------|------------|-----------|
+| 0 | Blues | 1 b3 4 b5 5 b7 | Grintoso, tensione/risoluzione |
+| 1 | C7 | 1 3 5 b7 | Dominante, jazzistico |
+| 2 | F7 | 1 b3 4 b6 | Tetrade minore, scuro |
+| 3 | G7 | 1 b3 5 7 | Tensione dominante, instabile |
+| 4 | Major | 1 2 3 4 5 6 7 | Luminoso, classico |
+| 5 | MelodicMinor | 1 2 b3 4 5 6 7 | Jazz minore, sofisticato |
+| 6 | Pentatonic | 1 2 3 5 6 | Aperto, folkloristico |
+| 7 | Chromatic | tutti i 12 semitoni | Atonale, caotico |
+| 8 | MinorNat | 1 2 b3 4 5 b6 b7 | Minore naturale, malinconico |
+| 9 | MinorHarm | 1 2 b3 4 5 b6 7 | Minore armonico, drammatico |
+| 10 | MajPent | 1 2 3 5 6 | Pentatonica maggiore, solare |
+| 11 | MinPent | 1 b3 4 5 b7 | Pentatonica minore, blues rock |
+| 12 | Dorian | 1 2 b3 4 5 6 b7 | Minore modale, jazz fusion |
+| 13 | Mixolydian | 1 2 3 4 5 6 b7 | Maggiore modale, rock/jazz |
+| 14 | Diminish | 1 2 b3 4 b5 b6 6 7 | Simmetrico, tensione massima |
+| 15 | WholeTone | 1 2 3 b5 b6 b7 | Impressionista, sospeso |
+| 16 | Altered | 1 b2 b3 3 b5 b6 b7 | Super Locrio, jazz avanzato |
+| 17 | Persian | 1 b2 3 4 b5 b6 7 | Orientale, esotico |
+| 18 | Hijaz | 1 b2 3 4 5 b6 b7 | Arabo, flamenco, drammatico |
+| 19 | Flamenco | 1 b2 3 4 5 b6 b7 | Spagnolo, passionale |
+
+
 
 ---
 
